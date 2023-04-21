@@ -4,7 +4,8 @@ body {
 }
 
 header {
-  background-color: #666;
+  background-color: #5F9EA0;
+  font-size: 1.2rem;
 }
 
 header h1 {
@@ -36,7 +37,7 @@ nav a#lnk_add {
 
 #featured {
   text-align: center;
-  background-color: #900;
+  background-color: #DCDCDC;
   margin: 20px 0 20px 0;
   padding: 20px;
 }
@@ -47,6 +48,10 @@ nav a#lnk_add {
   margin: auto;
 }
 
+#motorcycle img {
+  width: 80vw; 
+}
+
 #motorcycles {
   margin: 20px 0 20px 0;
   background-color: #AAA;
@@ -55,13 +60,18 @@ nav a#lnk_add {
   border-collapse: collapse;
 }
 
-#motorcycles thead {
+#motorcycles thead{
   background-color: #333;
   color: #FFF;
+  text-align: left;
 }
 
-#motorcycles td {
+#motorcycles td, th {
   padding: 20px;
+}
+
+#motorcycles tbody tr:hover {
+  background-color: #999;
 }
 
 img.thumbnail {
@@ -87,4 +97,10 @@ ul#categories {
   list-style-type: none;
   margin: 40px;
   padding: 0;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 1px solid black;
+  color: grey;
 }

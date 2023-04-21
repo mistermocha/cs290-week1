@@ -22,7 +22,7 @@
   <main>
     <h2>Add a New Motorcycle</h2>
     <div id="motorcycle_form_container">
-      <form method="GET">
+      <form action="/motorcycle_create.html"method="GET">
         <label for="category_id">Category</label>
         <select name="category_id">
           <option value="">Select...</option>
@@ -51,15 +51,19 @@
         <label for="motor_cc">Motor cc</label>
         <input type="text" name="motor_cc">
         <br>
+        <label for="motor_hp">Motor hp</label>
+        <input type="text" name="motor_hp">
+        <br>
         <label for="image">Image</label>
         <input type="file" name="image">
         <br>
+          <label><!--filler to format Save button--></label>
         <input type="submit" value="Save">
       </form>
     </div>
   </main>
   <footer>
-    <p>&copy; 2020 YOUR NAME</p>
+    <p>&copy; 2020 Tyler Cozzocrea</p>
   </footer>
 </body>
 </html>
